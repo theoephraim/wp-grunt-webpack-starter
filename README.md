@@ -1,2 +1,2 @@
 # wp-grunt-webpack-starter
-A starter wordpress theme that uses grunt, webpack, and livereload for speedy development
+A starter wordpress theme that uses webpack and browsersync (via grunt) for quick and easy development.

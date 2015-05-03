@@ -1,6 +1,6 @@
 /**
- * Theme Name:  Your theme title
- * Theme URI:   http://example.com
+ * Theme Name:  Webpack Starter Theme
+ * Theme URI:   https://github.com/theoephraim/wp-grunt-webpack-starter
  * Description: Description
  * Author:      Author
  * Author URI:  http://example.com
@@ -8,4 +8,10 @@
  * Tags:
  *
  */
- /* Not your real stylesheet! Just the theme info that wordpress reads */
+/*
+NOTE: This file is just the theme info that wordpress needs when picking a theme.
+
+Style files are built from assets-src/less files into the assets/css directory.
+You can easily change this around to build from SASS instead of LESS.
+
+*/
