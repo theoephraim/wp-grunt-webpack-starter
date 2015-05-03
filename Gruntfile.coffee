@@ -5,7 +5,6 @@ module.exports = (grunt) ->
   grunt.initConfig
     pkg: grunt.file.readJSON('package.json')
 
-    ###### BUILD
     clean:
       build: ['assets/js', 'assets/css']
 
@@ -14,30 +13,17 @@ module.exports = (grunt) ->
       theme:
         foo: 1
 
-    ###### DEVELOPMENT
-    watch:
-
-      # livereload tasks
-      css:
-        files: 'assets/css/*.css'
-        spawn: false
-        options: { livereload: true }
-      js_output:
-        files: 'assets/js/*.js'
-        spawn: false
-        options: { livereload: true }
-      images:
-        files: 'assets/images/**/*'
-        spawn: false
-        options: { livereload: true }
-      php:
-        files: '*.php'
-        spawn: false
-        options: { livereload: true }
+    browserSync:
+      theme:
+        bsFiles:
+          src: [
+            'assets/**'
+            '**/*.php'
+          ]
 
   # Task aliases
 
   # Development Tasks
   grunt.registerTask 'build', ['clean:build', 'webpack']  # just start the server
-  grunt.registerTask 'dev', ['build', 'watch']   # build and start watching
+  grunt.registerTask 'dev', ['build', 'browserSync']   # build and start watching
 

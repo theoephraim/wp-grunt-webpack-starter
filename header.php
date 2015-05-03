@@ -15,8 +15,6 @@
 
 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/core.css" />
 
-<script src="//localhost:35729/livereload.js"></script>
-
 <?php wp_head(); ?>
 </head>
 
