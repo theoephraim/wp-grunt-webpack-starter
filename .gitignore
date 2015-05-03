@@ -1,0 +1,8 @@
+node_modules
+assets-src/lib-bower
+assets/css
+assets/js
+
+
+npm-debug.log
+.DS_Store

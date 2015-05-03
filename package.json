@@ -1,0 +1,31 @@
+{
+  "name": "wp-grunt-webpack-starter",
+  "version": "0.0.1",
+  "description": "A starter wordpress theme for speedy development using grunt, webpack, and livereload",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/bower install"
+  },
+  "author": "Theo Ephraim <theozero@gmail.com> (http://theoephraim.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "bower-webpack-plugin": "^0.1.8",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.2",
+    "css-loader": "^0.12.0",
+    "extract-text-webpack-plugin": "^0.7.0",
+    "file-loader": "^0.8.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-task-loader": "^0.6.0",
+    "grunt-webpack": "^1.0.8",
+    "less": "^2.5.0",
+    "less-loader": "^2.2.0",
+    "style-loader": "^0.12.1",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
+  }
+}
