@@ -9,6 +9,7 @@
   "author": "Theo Ephraim <theozero@gmail.com> (http://theoephraim.com)",
   "license": "MIT",
   "dependencies": {
+    "autoprefixer-loader": "^1.2.0",
     "bower": "^1.4.1",
     "bower-webpack-plugin": "^0.1.8",
     "coffee-loader": "^0.7.2",
